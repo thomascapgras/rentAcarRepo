@@ -32,7 +32,7 @@ public class JwtTokenFilter extends OncePerRequestFilter {
     private static final Logger logger = LoggerFactory.getLogger(JwtTokenFilter.class);
     private final UserService userService;
     private final JwtDecoder jwtDecoder;
-    private static final String SECRET_KEY = "gk2FOvp5YPpac8f5UslDeUSvKvMtgjNVtNgMYAs6Lgk=";
+    private static final String SECRET_KEY = ${SECRET_KEY};
     private static final String GOOGLE_USERINFO_ENDPOINT = "https://www.googleapis.com/oauth2/v3/userinfo";
 
     /**
