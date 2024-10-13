@@ -15,7 +15,7 @@ import java.util.Date;
 public class JwtTokenProvider {
 
     private static final long EXPIRE_DURATION = 24 * 60 * 60 * 1000; // 24 hours
-    private static final String SECRET_KEY = "gk2FOvp5YPpac8f5UslDeUSvKvMtgjNVtNgMYAs6Lgk=";
+    private static final String SECRET_KEY = ${SECRET_KEY};
 
     /**
      * Generates a JWT token for the specified username.
