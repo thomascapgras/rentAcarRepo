@@ -33,9 +33,16 @@ This is a full-stack application for booking car rentals. The project is designe
    - **Classic authentication** (username/password) for user login and account management.
    - **OAuth2 authentication** via **Google** for an easy and secure login experience.
 
-8. **Security Features**
+8. **user profile*
+   - View your **current reservations**.
+   - See **past reservations** with details on the cars rented and the dates of reservation.
+   - Manage active bookings and cancellations from the profile section.   
+
+9. **Security Features**
    - **Spring Security** integrated with **OAuth2** and **OpenID Connect**.
    - Secure login flows, both with traditional credentials and third-party OAuth2 providers.
+  
+   
 
 ## Tech Stack
 
