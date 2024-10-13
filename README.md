@@ -47,6 +47,9 @@ This is a full-stack application for booking car rentals. The project is designe
   - **Spring Actuator**: For monitoring the health and metrics of the services.
   - **JavaMailSender**: For sending email notifications.
   - **Hibernate**: For ORM (Object Relational Mapping).
+  - **Bean Validation**: 
+    - **@Valid** and **@Validated** annotations for automatic validation of the data.
+    - Custom validators for specific use cases.
 - **PostgreSQL**: The database for managing users, cars, and bookings.
 
 ### Frontend
