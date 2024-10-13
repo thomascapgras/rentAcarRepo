@@ -61,16 +61,12 @@ This is a full-stack application for booking car rentals. The project is designe
 ## Getting Started
 
 ### Clone the repository:
-
 ```bash
 git clone https://github.com/thomascapgras/rentAcarRepo.git
 cd rentAcarRepo
 
 ### Clone the repository:
 
-```bash
-git clone https://github.com/thomascapgras/rentAcarRepo.git
-cd rentAcarRepo
 
 
 
