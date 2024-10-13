@@ -70,5 +70,6 @@ cd rentAcarRepo
 Navigate to the backend directory.
 Configure your PostgreSQL database connection in the application.properties file.
 Start the Spring Boot application:
-
-
+```bash
+./mvnw spring-boot:run
+```
