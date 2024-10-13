@@ -1,0 +1,24 @@
+.price-range-slider {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+  }
+  
+  .price-range-slider mat-slider {
+    width: 80%; 
+    margin: 10px 0;
+  }
+  
+  .price-range-slider div {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 10px; 
+  }
+  
+  .price-range-slider div span {
+    margin: 0 10px;
+  }
+  

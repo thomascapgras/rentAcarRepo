@@ -1,0 +1,65 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.caracteristics-container {
+    display: grid;
+    grid-template-rows: auto auto; 
+}
+
+.brand-model {
+    font-weight: bold; 
+    font-size: 1.7em; 
+    margin-left: 10px; 
+}
+
+.price-rating-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+    margin-left: 10px; 
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.rating {
+    font-size: 1.3em; 
+    font-weight: normal;
+}
+
+.rating::after {
+    content: '★';
+    color: blue; 
+    margin-right: 5px; 
+    font-size: 1.4em; 
+}
+
+.number-of-rent {
+    margin-left: 10px; 
+    font-size: 1.4em; 
+    font-weight: normal;
+}
+
+.car-mileage {
+    margin-left: 10px; 
+    font-size: 1.3em; 
+    font-weight: normal; 
+}
+
+.number-of-rent::after {
+    content: '🔑'; 
+    margin-left: 5px;
+    font-size: 1em; 
+}
+
+.price{
+    font-size: 1.3em; 
+    font-weight: normal;
+}
+

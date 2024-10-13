@@ -1,0 +1,10 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 4fr 4fr 4fr;
+    height: inherit;
+    width: inherit;
+    position: relative;
+    margin-left:2%;
+    margin-right:2%;
+}
+

@@ -1,0 +1,11 @@
+<div class="grid-container">
+    <img src="{{reservation.carDto.carCaracteristicsDto.img}}" alt="carImg">
+    <div class="caracteristics-container">
+        <p class="brand-model">{{reservation.carDto.brand}} {{reservation.carDto.model}}</p>
+        <p class="text-content">departure date : <span>{{reservation.departureDate}}</span></p>
+        <p class="text-content">return date : <span>{{reservation.returnDate}} </span></p>
+        <p class="text-content">total-price : <span>{{totalPrice}}</span> €</p>
+        <p class="rating">rating : <span>{{reservation.carDto.rating}}</span></p>
+        <button type="submit" (click)="openDialog()" class="cancel-button">cancel reservation</button>
+    </div>
+</div>

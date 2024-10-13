@@ -1,0 +1,19 @@
+<div class="form-container">
+  <img src="/assets/images/pic1.jpg" alt="img">
+  <form (ngSubmit)="getAvailableCarsByCity()" method="post" #formSearchCar="ngForm">
+    <select name="city" [(ngModel)]="reservation.city">
+      <option value="Paris">Paris</option>
+      <option value="Berlin">Berlin</option>
+      <option value="London">London</option>
+      <option value="Roma">Roma</option>
+      <option value="Barcelona">Barcelona</option>
+    </select>
+    <label for="departure-date">Departure Date: </label>
+    <input type="date" name="departure-date" [(ngModel)]="reservation.departureDate">
+    <label for="return-date">Return Date: </label>
+    <input type="date" name="return-date" [(ngModel)]="reservation.returnDate">
+    <button type="button" (click)="openDialog()">Filters</button>
+    <input type="submit" value="Validate">
+  </form>
+  <div></div>
+</div>

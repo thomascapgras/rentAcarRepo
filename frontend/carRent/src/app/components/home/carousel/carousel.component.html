@@ -1,0 +1,15 @@
+<div class="grid-container">
+    <div class="content-section">
+        <h2>Find what moves you</h2>
+        <p class="content-description">Explore the world's largest peer-to-peer car rental platform</p>
+        <p class="browse-label">Browse by brand</p>
+    </div>
+    
+    <div class="carrousel-container">
+        <span class="arrow left" (click)="precedent()">«</span>
+        <img  class="img1" (click)="getAvailableCarsByBrand(brands[currentImageIndex].brand)" [src]="brands[currentImageIndex].picture" [alt]="'Image ' + (currentImageIndex + 1)">
+        <span class="arrow right" (click)="suivant()">»</span>
+    </div>
+    
+    <p class="brand-name">{{brands[currentImageIndex].brand}}</p>
+</div>

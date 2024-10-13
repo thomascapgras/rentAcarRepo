@@ -1,0 +1,15 @@
+<div class="grid-container">
+    <img (click)="navigateToDetails()" src="{{car.carCaracteristicsDto.img}}" alt="carImg">
+    <div class="caracteristics-container">
+        <div>
+            <p class="brand-model">{{car.brand}} {{car.model}}</p>
+            <p class="number-of-rent">rent number : <span>{{car.carCaracteristicsDto.rentNumber}}</span></p>
+            <p class="car-mileage">car mileage : <span>{{car.carCaracteristicsDto.mileage}} km</span></p>
+        </div>
+     
+        <div class="price-rating-container">
+            <p class="price">price : <span>{{car.price}}</span> € </p>
+            <p class="rating">rating : <span>{{car.rating}}</span></p>
+        </div>
+    </div>
+</div>

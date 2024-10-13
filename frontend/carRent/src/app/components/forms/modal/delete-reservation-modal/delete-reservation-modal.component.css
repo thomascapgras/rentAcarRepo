@@ -1,0 +1,25 @@
+
+.dialog-title {
+    text-align: center;
+    width: 100%; 
+    margin: 0;
+  }
+
+.grid-container {
+    display: flex;
+    justify-content: space-evenly; 
+    width: 100%; 
+  }
+  
+  .confirm-button {
+    color: green;
+  }
+  
+  .cancel-button {
+    color: red;
+  }
+  
+  mat-icon {
+    vertical-align: middle;
+  }
+  

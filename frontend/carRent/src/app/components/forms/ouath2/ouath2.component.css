@@ -1,0 +1,29 @@
+.grid-container{
+    height: inherit;
+    width: inherit;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-left : 2%;
+    margin-right : 2%;
+
+}
+
+
+
+input[type=button] {
+    text-align:center;
+    background-color: grey;
+    height:55%;
+    border-radius: 5px;
+    cursor: pointer;
+}

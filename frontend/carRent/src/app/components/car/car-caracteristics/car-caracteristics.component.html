@@ -1,0 +1,31 @@
+<div class="grid-container ">
+    <div class="details-container">
+        <h2>{{car.brand}} {{car.model}} {{car.carCaracteristicsDto.mileage}} km</h2>
+        <p>
+            <span class="rating">rating : {{car.rating}}</span>
+            <span class="number-of-rent">number of rent : {{car.carCaracteristicsDto.rentNumber}}</span>
+        </p>
+        <p class="price">price: <span>{{car.price}}</span> €</p>
+        <p>fuel 
+            <img src="/assets/images/fuel.png" alt="fuel icon" class="emoji">
+            : {{ car.carCaracteristicsDto.fuelType }}
+        </p>
+        <p>doors
+            <img src="/assets/images/door.png" alt="door icon" class="emoji">
+            : {{car.carCaracteristicsDto.doors}}
+        </p>
+        <p>seats 
+            <img src="/assets/images/seat.png" alt="seat icon" class="emoji">
+            : {{car.carCaracteristicsDto.seats}}</p>
+        <p *ngIf="car.carCaracteristicsDto.bluetooth">
+            <img src="/assets/images/bluetooth.jpg" alt="bluetooth icon" class="emoji">
+            bluetooth
+        </p>
+        <p *ngIf="car.carCaracteristicsDto.gps">
+            <img src="/assets/images/manualtransmission.png" alt="manual Transmission icon" class="emoji">
+            manual transmission
+        </p>
+        <p *ngIf="car.carCaracteristicsDto.manualTransmission"></p>
+    </div>
+
+</div>

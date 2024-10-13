@@ -1,0 +1,13 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin-left:2%;
+    margin-right:2%;
+}
+
+.grid-reservations{
+    display:grid;
+    grid-template-rows: 10% auto;
+    height : inherit;
+    width : inherit;
+}

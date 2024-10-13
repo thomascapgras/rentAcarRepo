@@ -1,0 +1,11 @@
+<main>
+    <div class="car-container">
+        <div *ngFor="let elem of cars">
+            <app-car-showed [car]="elem"></app-car-showed>
+        </div>
+    </div>
+
+    <div class="map-container">
+        <app-map-car></app-map-car>
+    </div>
+</main>

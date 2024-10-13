@@ -1,0 +1,33 @@
+<div class="modal-container">
+  <h2 mat-dialog-title class="modal-title">Car filters</h2>
+  <mat-dialog-content class="modal-content">
+
+    <div class="filter-item">
+      <label for="price">Price:</label>
+      <app-price-range-slider></app-price-range-slider>
+    </div>
+
+    <div class="filter-item">
+      <label for="gps">GPS:</label>
+      <input type="checkbox" name="gps" [(ngModel)]="filters.gps" (change)="onCheckboxChange('gps', $event)">
+    </div>
+
+    <div class="filter-item">
+      <label for="backupCamera">Backup Camera:</label>
+      <input type="checkbox" name="backupCamera" [(ngModel)]="filters.backupCamera" (change)="onCheckboxChange('backupCamera', $event)">
+    </div>
+
+    <div class="filter-item">
+      <label for="manualTransmission">Manual Transmission:</label>
+      <input type="checkbox" name="manualTransmission" [(ngModel)]="filters.manualTransmission" (change)="onCheckboxChange('manualTransmission', $event)">
+    </div>
+
+    <div class="filter-item">
+      <label for="bluetooth">Bluetooth:</label>
+      <input type="checkbox" name="bluetooth" [(ngModel)]="filters.bluetooth" (change)="onCheckboxChange('bluetooth', $event)">
+    </div>
+  </mat-dialog-content>
+  <mat-dialog-actions class="modal-actions">
+    <button mat-button (click)="close(true)">Close</button>
+  </mat-dialog-actions>
+</div>

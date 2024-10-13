@@ -1,0 +1,23 @@
+.grid-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 10fr; 
+    align-items: center;
+    justify-items: center;
+}
+
+app-contact-form {
+    height: inherit;
+    width: inherit;
+}
+
+.title-small {
+    font-size: 1.5rem;
+    font-family: AvenirBlack, sans-serif;
+    color: #01d3fd;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    display: block;
+    letter-spacing: .07em;
+}

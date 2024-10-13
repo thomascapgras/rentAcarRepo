@@ -1,0 +1,9 @@
+<div class="navbar">
+    <a (click)="clickOnHome()">home</a>
+    <div class="right">
+        <a *ngIf="!(isAuthenticate|async)" (click)="clickOnSignup()">signup</a>
+        <a *ngIf= "!(isAuthenticate|async)"  (click)="clickOnLogin()">login</a>
+        <a (click)="clickOnMyProfile()">my profile</a>
+        <a *ngIf="(isAuthenticate|async)"  (click)="clickOnLogout()">logout</a>
+    </div>
+</div>

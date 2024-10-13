@@ -1,0 +1,30 @@
+
+.navbar {
+    background-color: black; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: space-between; 
+    margin:2%;
+}
+
+
+.navbar a {
+    float: left; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+    font-size: 17px; 
+}
+
+
+.navbar .right {
+    display: flex; 
+}
+
+
+.navbar a:hover {
+    background-color: #ddd; 
+    color: black;
+}
+

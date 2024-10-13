@@ -1,0 +1,9 @@
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 20px; 
+    height: 100%; 
+    margin-left:2%;
+    margin-right:2%;
+}
+

@@ -1,0 +1,21 @@
+<div class="price-range-slider">
+    <mat-slider
+      thumbLabel
+      [min]="minPrice"
+      [max]="maxPrice"
+      [(ngModel)]="priceRange.min"
+      (change)="updateMinPrice($event)">
+    </mat-slider>
+    <mat-slider
+      thumbLabel
+      [min]="minPrice"
+      [max]="maxPrice"
+      [(ngModel)]="priceRange.max"
+      (change)="updateMaxPrice($event)">
+    </mat-slider>
+    <div>
+      <span>Min: {{ priceRange.min }} €</span>
+      <span>Max: {{ priceRange.max }} €</span>
+    </div>
+  </div>
+  

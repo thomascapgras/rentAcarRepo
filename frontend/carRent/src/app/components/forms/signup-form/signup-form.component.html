@@ -1,0 +1,11 @@
+<div class="formLogin">
+    <form (ngSubmit)="onSubmit()" method="post" #loginForm="ngForm">
+       <label for="email">email : </label>
+       <input type ="text" name="email" [(ngModel)]="userRegistration.email">
+       <label for="pwd">password : </label>
+       <input type ="text" name="pwd" [(ngModel)]="userRegistration.pwd">
+       <label for="pwd-confirm">confirm password : </label>
+       <input type ="text" name="pwd-confirm" [(ngModel)]="passwordConfirm">
+       <input type="submit" value="validate">
+    </form>
+ </div>

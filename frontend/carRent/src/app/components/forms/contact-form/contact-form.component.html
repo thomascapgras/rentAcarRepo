@@ -1,0 +1,33 @@
+
+<div class="grid-container">
+    <form (ngSubmit)="onSubmit()" method="post" #contactForm="ngForm">
+        <div>
+            <div>
+                <label for="firstname">first name : </label>
+                <input type="text" id="firstname" name="firstname" [(ngModel)]="contact.firstname" placeholder="firstname">
+            </div>
+            <div>
+                <label for="lastname">last name :</label>
+                <input type="text" id="lastname" name="lastname" [(ngModel)]="contact.lastname" placeholder="lastname">
+            </div>
+        </div>
+    
+        <div>
+            <div>
+                <label for="email">email</label>
+                <input type="text" id="email" name="email" [(ngModel)]="contact.email" placeholder="email">
+            </div>
+            <div>
+                <label for="tel">tel</label>
+                <input type="text" id="tel" name="tel" [(ngModel)]="contact.tel" placeholder="tel">
+            </div>
+        </div>
+        <div class="message-row">
+            <label for="message">message</label>
+            <input type="text" id="message" name="message" [(ngModel)]="contact.message" placeholder="your message">
+        </div>
+        <input type="submit" value="send">
+    </form>
+
+</div>
+

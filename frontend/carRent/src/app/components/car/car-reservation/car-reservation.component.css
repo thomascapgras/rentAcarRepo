@@ -1,0 +1,52 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.caracteristics-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2%;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+.brand-model {
+    font-weight: bold; 
+    font-size: 1.7em; 
+}
+
+.text-content {
+    font-size: 1.4em; 
+    font-weight: normal;
+}
+
+.rating {
+    font-size: 1.4em; 
+    font-weight: normal;
+}
+
+.rating::after {
+    content: '★';
+    color: blue; 
+    margin-right: 5px; 
+    font-size: 1.4em; 
+}
+
+.cancel-button {
+    font-size: 1.4em;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: 10px;
+}
