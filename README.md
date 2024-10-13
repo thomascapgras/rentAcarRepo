@@ -57,3 +57,17 @@ This is a full-stack application for booking car rentals. The project is designe
 - **TypeScript**: Core language used in the Angular frontend.
 - **Google OAuth2**: For user authentication with Google accounts.
 - **JavaScript & HTML/CSS**: For user interface design and functionality.
+
+## Getting Started
+
+### Clone the repository:
+
+```bash
+git clone https://github.com/thomascapgras/rentAcarRepo.git
+cd rentAcarRepo
+
+Start the Spring Boot application:  ./mvnw spring-boot:run
+Frontend Setup:
+Install the dependencies : npm install
+Run the Angular development server : ng serve
+
