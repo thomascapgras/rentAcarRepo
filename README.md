@@ -65,3 +65,4 @@ This is a full-stack application for booking car rentals. The project is designe
 ```bash
 git clone https://github.com/thomascapgras/rentAcarRepo.git
 cd rentAcarRepo
+```bash
