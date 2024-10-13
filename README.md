@@ -1,4 +1,4 @@
-# Car Rental Booking Application
+## Car Rental Booking Application
 
 ## Description
 This is a full-stack application for booking car rentals. The project is designed with a **Java Spring Boot** backend and an **Angular** frontend, allowing users to search for cars based on various criteria, manage bookings, and handle authentication through both classic login and OAuth2 with Google. It also includes messaging features to notify users about bookings and cancellations.
@@ -57,34 +57,11 @@ This is a full-stack application for booking car rentals. The project is designe
 - **TypeScript**: Core language used in the Angular frontend.
 - **Google OAuth2**: For user authentication with Google accounts.
 - **JavaScript & HTML/CSS**: For user interface design and functionality.
-  
+
 ## Getting Started
 
-### Git
+### Clone the repository:
 
 ```bash
 git clone https://github.com/thomascapgras/rentAcarRepo.git
 cd rentAcarRepo
-
-
-Je vois le problème sur ta capture d'écran. Le texte explicatif (comme "Navigate to the backend directory") est inclus dans un bloc de code avec la commande Git, ce qui n'est pas souhaité.
-
-Voici la bonne version formatée en Markdown, où les commandes sont bien séparées du texte explicatif, pour éviter d'avoir tout dans un bloc de code :
-
-markdown
-Copy code
-## Getting Started
-
-### Git
-
-```bash
-git clone https://github.com/thomascapgras/rentAcarRepo.git
-cd rentAcarRepo
-Backend Setup
-Navigate to the backend directory.
-Configure your PostgreSQL database connection in the application.properties file.
-Start the Spring Boot application:
-
-bash
-Copy code
-./mvnw spring-boot:run
