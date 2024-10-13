@@ -73,3 +73,17 @@ Start the Spring Boot application:
 ```bash
 ./mvnw spring-boot:run
 ```
+
+### Frontend Setup :
+Navigate to the frontend directory. Install the dependencies:
+```bash
+npm install
+```
+Run the Angular development server
+```bash
+ng serve
+```
+
+### Access the application :
+Open your browser and go to http://localhost:4200 for the frontend.
+The backend API will be available at http://localhost:8080.
