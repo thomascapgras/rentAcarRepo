@@ -66,3 +66,9 @@ This is a full-stack application for booking car rentals. The project is designe
 git clone https://github.com/thomascapgras/rentAcarRepo.git
 cd rentAcarRepo
 ```
+### Backend Setup :
+Navigate to the backend directory.
+Configure your PostgreSQL database connection in the application.properties file.
+Start the Spring Boot application:
+
+
