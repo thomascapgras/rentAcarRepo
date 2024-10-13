@@ -59,13 +59,10 @@ This is a full-stack application for booking car rentals. The project is designe
 - **JavaScript & HTML/CSS**: For user interface design and functionality.
 - 
 ## Getting Started
-### Frontend
-- **Angular 14**: A responsive front-end built with Angular for smooth client interactions.
-- **TypeScript**: Core language used in the Angular frontend.
-- **Google OAuth2**: For user authentication with Google accounts.
-- **JavaScript & HTML/CSS**: For user interface design and functionality.
-
-
+### Git
+```bash
+git clone https://github.com/thomascapgras/rentAcarRepo.git
+cd rentAcarRepo
 
 
 
